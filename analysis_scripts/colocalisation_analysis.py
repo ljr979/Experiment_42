@@ -55,7 +55,7 @@ timepoints = molecules['timepoint'].unique().tolist()
 
 
 shsp=molecules[molecules["protein"] == "hsp27"]
-client=molecules[molecules['protein']=='CLIC']
+client=molecules[molecules['protein']=='Rhodanese']
 
 #find % colocalisation for shsps over time
 zero=[]
